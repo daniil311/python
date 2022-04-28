@@ -18,7 +18,7 @@ try:
 
     # locate by partial link and open ozon.ru
     browser.find_element_by_partial_link_text('OZON — интернет-магазин').click()
-    # sleep(5)
+    sleep(5)
     wait = WebDriverWait(browser, 20).until(EC.visibility_of_all_elements_located(By.CSS_SELECTOR, "div[type='addToCartButton']"))
 
     prod_1 = browser.find_element_by_css_selector(
