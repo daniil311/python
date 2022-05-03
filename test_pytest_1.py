@@ -44,8 +44,8 @@ class TestRegistration(unittest.TestCase):
         finally:
             # ожидание чтобы визуально оценить результаты прохождения скрипта
             time.sleep(1)
-            #
-
+            # закрываем браузер после всех манипуляций
+            browser.quit()
 
 
     def test_registration2(self):
