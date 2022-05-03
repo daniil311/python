@@ -44,7 +44,7 @@ class TestRegistration(unittest.TestCase):
         finally:
             # ожидание чтобы визуально оценить результаты прохождения скрипта
             time.sleep(1)
-            # закрываем браузер после всех манипуляций
+            #
 
 
 
